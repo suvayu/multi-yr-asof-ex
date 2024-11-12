@@ -34,6 +34,15 @@ D .read mwe.sql
 └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
+## Comments
+
+- `ddl.sql` creates the necessary tables from CSV files
+- `mwe.sql` has the query
+
+AFAIU, an `ASOF JOIN` picks the latest matching row based on the
+provided criteria (the `ON` clause).  The clause has to be a sequence
+of equalities, followed by an inequality at the end.
+
 ## DuckDB docs
 
 [`ASOF JOIN`](https://duckdb.org/docs/guides/sql_features/asof_join.html)
