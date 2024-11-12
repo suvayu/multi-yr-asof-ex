@@ -39,7 +39,7 @@ D .read mwe.sql
 - `ddl.sql` creates the necessary tables from CSV files
 - `mwe.sql` has the query
 
-AFAIU, an `ASOF JOIN` picks the latest matching row based on the
+AFAIU, an `ASOF JOIN` picks the closest matching row based on the
 provided criteria (the `ON` clause).  The clause has to be a sequence
 of equalities, followed by an inequality at the end.
 
