@@ -33,3 +33,7 @@ D .read mwe.sql
 │ 20 rows                                                                                                                                 11 columns (10 shown) │
 └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
+
+## DuckDB docs
+
+[`ASOF JOIN`](https://duckdb.org/docs/guides/sql_features/asof_join.html)
